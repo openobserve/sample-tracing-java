@@ -6,7 +6,7 @@ Please update below mentioned variables in class OpenTelemetrySupport.java, you 
 
 String creds = "Basic YUBhLmNvbTph";
 // set url from openobserve ingestion traces page
-String openobserve_http_url = "http://127.0.0.1:5080/api/nexus123/traces";
+String openobserve_http_url = "http://127.0.0.1:5080/api/dummy/traces";
 
 String openobserve_grpc_url = "http://127.0.0.1:5081";
 String openobserve_grpc_org = "dummy";
