@@ -2,7 +2,7 @@
 Java tracing example 
 
 # Running application
-Please update below mentioned variabled in class OpenTelemetrySupport.java, you can find this information by navigating to ingestion -> traces -> Open Telemetry in OpenObserve application.
+Please update below mentioned variables in class OpenTelemetrySupport.java, you can find this information by navigating to ingestion -> traces -> Open Telemetry in OpenObserve application.
 
 String creds = "Basic YUBhLmNvbTph";
 // set url from openobserve ingestion traces page
