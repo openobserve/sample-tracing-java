@@ -50,7 +50,6 @@ public class App {
         } finally {
             span.end();
         }
-        es.shutdown();
         return "Hello World!";
     }
 
