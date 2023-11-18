@@ -16,4 +16,16 @@ String openobserve_grpc_org = "dummy"
 
 By default sample program uses OtlpHttpSpanExporter , you can switch to OtlpGrpcSpanExporter by commenting out http exporter & uncommenting Grpc exporter.
 
-use ```gradle run``` to run application
+Run the application
+
+If you use gradle then you can use below command:
+
+```shell
+./gradlew run
+``` 
+
+If you use maven then you can use below command:
+
+```shell
+mvn exec:java -Dexec.mainClass="src.App"
+```
